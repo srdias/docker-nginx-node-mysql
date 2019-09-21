@@ -38,6 +38,6 @@ services:
     ports:
       - 85:80
     networks:
-    - appenv
+      - appenv
     depends_on:
       - backend
